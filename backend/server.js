@@ -40,8 +40,8 @@ app.post("/api/stk", async (req, res) => {
 
 const stkOptions = {
   tillNumber: process.env.K2_TILL_NUMBER,
-  firstName,
-  lastName,
+  firstName:'Customer',
+  lastName: 'Payment',
   phoneNumber,
   currency: "KES",
   amount: Number(amount),
